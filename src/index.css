@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+     font-family: "Playfair Display", serif;
+}
+
+.fs-small{
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.top-bar {
+    .css-1ygil4i-MuiToolbar-root {
+        background-color: #CCFBF1;
+        border-radius: .8rem;
+        margin: .5rem;
+        color: green;
+       
+    }
+    .css-f2z2f9-MuiPaper-root-MuiAppBar-root{
+        background-color: white;
+        box-shadow: none;
+    }
+    .css-rizt0-MuiTypography-root {
+        width: 100% !important;
+    }
+
+.css-1v3p74u-MuiChip-root{
+    border-radius: 7px;
+    padding: 1.2rem 1rem;
+    background-color: #AFE1AF;
+    color: green;
+    font-size: 1.5rem;
+    text-align: center; 
+   font-family: "Gill Sans", sans-serif;
+}
+.css-1dybbl5-MuiChip-label{
+ padding: .5rem .4rem;
+ font-weight: 600;
+ font-size: 1rem;
+ font-family: "Gill Sans", sans-serif;
+}
+.css-1usuzwp-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    background-color: #CCFBF1;
+    color: green;
+    border-radius: .5rem;
+}
+.css-1qltlow-MuiTabs-indicator{
+    display: none;
+}
+.css-1usuzwp-MuiButtonBase-root-MuiTab-root{
+    color: #A9A9A9;
+    margin-right: 2rem;
+}
+.css-b7dj7n-MuiList-root{
+    background-color: #CCFBF1; 
+     border-radius: .8rem;
+}
+
+  .css-gdruyp-MuiDrawer-docked .MuiDrawer-paper{
+    overflow: hidden;
+  }
+  .css-bgqxs0-MuiButtonBase-root-MuiListItemButton-root{
+    padding-block: 0;
+    max-height: 2.9rem;
+    min-height: 2.9rem;
+  }
+  .css-13v0pux-MuiListItemText-root :hover{
+     background-color: red;
+  }
+}
